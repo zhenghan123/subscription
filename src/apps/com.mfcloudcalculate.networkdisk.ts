@@ -12,11 +12,9 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
-          matches: [
-            '[id="android:id/button2"]'
-          ]
-        }
-      ]
-    }
-  ]
+          matches: ['[id="android:id/button2"]'],
+        },
+      ],
+    },
+  ],
 });
