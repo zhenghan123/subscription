@@ -12,7 +12,7 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
-          matches: ['[name="android.widget.ImageView"]'],
+          matches: [id="com.zhangkongapp.joke.bamenshenqi:id/iv_close"],
         },
       ],
     },
