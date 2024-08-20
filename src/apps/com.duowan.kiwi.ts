@@ -16,5 +16,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      name: '点x',
+      key: 1,
+      actionMaximum: 1,
+      matchTime: 10000,
+      resetMatch: 'app',
+      rules: [
+        {
+          matches: ['[name="android.widget.ImageView"]'],
+        },
+      ],
+    },
   ],
 });
