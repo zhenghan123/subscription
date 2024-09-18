@@ -7,8 +7,8 @@ export default defineGkdApp({
     {
       name: '开局弹窗',
       key: 0,
-      actionMaximum: 1,
-      matchTime: 10000000,
+      actionMaximum: 10,
+      // matchTime: 10000000,
       resetMatch: 'app',
       rules: [
         {
